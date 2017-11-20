@@ -1,4 +1,5 @@
 // create the module and name it scotchApp
+
 var scotchApp = angular.module('tarseer', ['ngRoute']);
 
 // configure our routes
@@ -21,7 +22,15 @@ scotchApp.config(function($routeProvider) {
         .when('/contact', {
             templateUrl : 'pages/contact.html',
             controller  : 'contactController'
+        })
+
+        // route for the press page
+        .when('/press', {
+            templateUrl : 'pages/press.html',
+            controller  : 'pressController'
         });
+
+
 });
 
 // create the controller and inject Angular's $scope
@@ -36,5 +45,7 @@ scotchApp.controller('aboutController', function($scope) {
 });
 
 scotchApp.controller('contactController', function($scope) {
-    $scope.message = 'Feel free to email us!';
+});
+
+scotchApp.controller('pressController', function($scope) {
 });

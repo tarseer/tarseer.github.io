@@ -1,13 +1,13 @@
-h1 { color: #6699CC; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px;
+h1 { color: #000033; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px;
     line-height: 1; text-align: center;
 }
 
 p {
-    color:#6699CC;
+    color: #000033;
 }
 
 hr {
-    border-color: #6699CC;
+    border-color: #000033;
 }
 
 img#map {
