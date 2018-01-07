@@ -12,6 +12,8 @@
     <!-- SPELLS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
     <script src="script.js"></script>
 </head>
 
@@ -25,22 +27,32 @@
         </div>
 
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
             <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
             <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
             <li><a href="#press"><i class="fa fa-pencil"></i> Press</a></li>
         </ul>
     </div>
+
 </nav>
 
 <div id="main">
 
     <!-- angular templating -->
     <!-- this is where content will be injected -->
-    <div ng-view></div>
+    <!--<div ng-view></div>-->
+
 
 </div>
 
+<div w3-include-html="pages/home.html"></div>
+<div w3-include-html="pages/about.html"></div>
+<div w3-include-html="pages/contact.html"></div>
+<div w3-include-html="pages/press.html"></div>
+
+<script>
+    w3.includeHTML();
+</script>
 </body>
 
 </html>
