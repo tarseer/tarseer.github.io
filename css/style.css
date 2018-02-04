@@ -1,4 +1,4 @@
-h1 { color: #000033; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px;
+h1 { font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px;
     line-height: 1; text-align: center;
 }
 
@@ -23,3 +23,27 @@ table p {
     font-size: 80%;
 }
 
+.jumbotron h1 {
+    color: #006262;
+}
+
+.jumbotron p {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.navbar {
+    background-color: #006262;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+#press img {
+    width: 20%;
+}
