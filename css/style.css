@@ -47,3 +47,40 @@ table p {
 #press img {
     width: 20%;
 }
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    margin-top: -55%;
+    background: rgba(100, 100, 100, 0);
+    color: #f1f1f1;
+    width: 35%;
+    padding: 20px;
+    font-size:75%;
+}
+
+.jumbotron .content p {
+    width : 80%;
+    margin-left:5%;
+    color: white;
+
+}
+
+@media only screen and (max-width: 849px) {
+    .show-mobile {
+        display: inline;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .show-mobile {
+        display: none;
+    }
+    .hide-mobile {
+        display: block;
+
+    }
+}
