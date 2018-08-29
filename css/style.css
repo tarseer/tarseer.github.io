@@ -80,6 +80,29 @@ table p {
 
 #home {
     width:100%;
+    display:contents;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/landing_image.jpg");
+    /* Full height */
+    height: 500px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    opacity: .7;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 849px) {
